@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app.light{
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.app.dark{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.app.light button{
+    background-color: #000;
+    color: #ffffff;
+    
+}
+
+.app.dark button{
+    background-color: #ffffff;
+    color: #000 ;
+    border-radius: 20px;
+}
